@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+
+    >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Service Details"
+                android:foregroundGravity="center"
+                android:textSize="25dp">
+
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vehicle Number"
+                android:layout_margin="10dp"
+                />
+
+            <EditText
+                android:id="@+id/txtvehiclenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Vehicle  number"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Service Date"
+                android:layout_margin="10dp"
+                />
+
+            <EditText
+                android:id="@+id/servicedate"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Select Date" />
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:layout_margin="10dp"
+                />
+
+            <EditText
+                android:id="@+id/sdescription"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Description" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Items Replaced"
+                android:layout_margin="10dp"
+                />
+
+            <EditText
+                android:id="@+id/sitemsreplaced"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Items Replaced" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cost"
+                android:layout_margin="10dp"
+                />
+
+            <EditText
+                android:id="@+id/scost"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Cost" />
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/btnsaveservice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save details"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="159dp"
+                android:layout_margin="20dp"
+                android:textSize="15dp"
+                android:background="@drawable/custom_button"/>
+            <Button
+                android:id="@+id/btnviewservice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="View Details"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="159dp"
+                android:textSize="15dp"
+                android:background="@drawable/custom_button"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnupdateservice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Update details"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="159dp"
+                android:textSize="15dp"
+                android:background="@drawable/custom_button"/>
+
+            <Button
+                android:id="@+id/btndeleteservice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Delete Details"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="159dp"
+                android:textSize="15dp"
+                android:background="@drawable/custom_button"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

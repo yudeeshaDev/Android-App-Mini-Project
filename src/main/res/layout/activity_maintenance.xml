@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background">
+    <Button
+        android:id="@+id/btnservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Details"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="159dp"
+        android:onClick="onClickbuttonS"
+        android:layout_marginTop="30dp"
+        />
+    <Button
+        android:id="@+id/btnrepair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repair details"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="159dp"
+        android:onClick="onClickbuttonR"
+        android:layout_marginTop="30dp"
+        />
+    <Button
+        android:id="@+id/btnfuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fuel details"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="159dp"
+        android:onClick="onClickbuttonF"
+        android:layout_marginTop="30dp"
+        />
+
+
+
+</LinearLayout>

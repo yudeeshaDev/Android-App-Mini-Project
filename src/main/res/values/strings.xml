@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">dummy1</string>
+    <string-array name="vehicle_type">
+        <item>Car</item>
+        <item>Van</item>
+        <item>Motor Bike</item>
+        <item>Truck</item>
+        <item>Bus</item>
+    </string-array>
+    <string-array name="Tips">
+        <item>w</item>
+        <item>e</item>
+        <item>e e</item>
+        <item>g</item>
+        <item>h</item>
+    </string-array>
+</resources>
